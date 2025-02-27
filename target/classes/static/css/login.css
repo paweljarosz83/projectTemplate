@@ -1,0 +1,330 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+	font-family: 'Arial';
+}
+
+
+.floatLeft{
+	float:left;
+}
+
+body{
+	background-color:red;
+}
+
+#topbox{
+	background-color:white;
+	border-radius:5px;
+}
+
+#logoimage{
+	margin-left:8px;
+}
+
+.wersjaText{
+	font-size: 12px;
+}
+.subb{
+	text-align: center;
+	margin-top:15px;
+	font-size: 12px;
+}
+.login-zalog{
+	
+	font-size: 25px;
+	margin-bottom:124px;
+	font-color:green;
+	
+}
+
+
+#elell{
+		background-color:red;
+}
+
+
+
+/*
+border-color:#026c44;
+*/
+
+.form-signin {
+	max-width: 430px;
+	max-height: 430px;
+	height:430px;
+	padding: 16px;
+	padding-top: 16px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 14px;
+	border-color:#eef2f2;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 12px;
+}
+
+.errorText {
+	
+	font-size: 10px;
+	color: #ff6663;
+	letter-spacing: 1px;
+}
+
+.form-signin .form-signin-heading {
+	margin-bottom: 16px;
+	text-align: right;
+	color: #598392;
+	background-color:;
+	font-size: 30px;
+	font-weight: bold;
+	height: 60px;
+	line-height: 60px;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background-color: #ffffff !important;
+	margin-bottom: 8px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	outline: 0px;
+	border: 1px solid white;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+#forgot {
+	margin-bottom: 32px;
+	font-size: 10px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+#logginButton {
+	margin-top: 16px;
+	margin-bottom: 8px;
+	height: 48px;
+	border-color: #a39a92;
+	background-color: #598392;
+	color: #eee;
+}
+
+#loginReklamacje{
+	font-size:32px;
+}
+#wersjaReklamacje{
+	font-size:12px;
+}
+
+.orr {
+	margin-top: 8px;
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+#register {
+	height: 34px;
+	width: 100%;
+	float: center;
+	color: #eee;
+	border-radius: 4px;
+	background-color: #124559;
+	border: 0px;
+	outline: 0px;
+}
+
+.userNameInHeader{
+	color: #008000;
+}
+
+a:link {
+	color: #a2666f;
+}
+
+a:visited {
+	color: #a2666f;
+}
+
+a:hover {
+	color: #a2666f;
+}
+
+a:active {
+	color: #a2666f;
+}
+
+
+
+
+
+
+
+
+
+#lowerSocial {
+	margin-top: 8px;
+}
+
+#singIn {
+	margin-top: 16px;
+	
+}
+
+#disclaimer {
+	margin-top: 16px;
+	font-size: 10px;
+	text-align: center;
+	color: #666b68;
+	
+}
+
+.btn-social {
+	
+}
+
+#facebookButtonColumn {
+	padding-left: 0px !important;
+	padding-right: 4px !important;
+}
+
+#gitButtonColumn {
+	padding-left: 4px !important;
+	padding-right: 0px !important;
+}
+
+#singleButtonColumn {
+	padding: 0;
+}
+
+.socialBox {
+	margin-top: 16px;
+}
+
+.socialText {
+	
+	font-size: 10px;
+	color: white;
+	text-align: right;
+}
+
+#faceButton {
+	background-color: #3b5998;
+	border: 0px;
+	outline: 0px;
+}
+
+#twittButton {
+	background-color: #1dcaff;
+	border: 0px;
+	outline: 0px;
+}
+
+#gitButton {
+	background-color: black;
+	border: 0px;
+	outline: 0px;
+}
+/*do usniecie*/
+#centered {
+	text-align: center;
+	font-size: 100%;
+	color: #5CB85C;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+input:focus {
+	box-shadow: inset 0 -5px 45px rgba(032, 190, 010, 0.4), 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.form-signin button {
+	margin-top: 10px;
+}
+
+.has-error {
+	color: red
+}
+
+/**   REGISTRATION  */
+#alreadyamember {
+	text-align: left;
+	
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #709176;
+}
+
+#signin {
+	height: 34px;
+	width: 100%;
+	float: center;
+	color: #eee;
+	border-radius: 4px;
+	background-color: #666b68;
+	border: 0px;
+	outline: 0px;
+	margin-top: 8px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid red;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/**FORGOT**/
+#backToLogin {
+	margin-top: 16px;
+	text-align:center;
+	
+	letter-spacing: 1px;
+	
+}
+
+
+
+.message{
+	
+	margin-bottom:16px;
+	color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

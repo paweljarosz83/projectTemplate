@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+
+
+    <title></title>
+
+    <!-- vendor css -->
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+
+    <!-- Bracket CSS -->
+    <link rel="stylesheet" href="../css/bracket.css">
+  </head>
+
+  <body style="background-color:#f4f5f7">
+
+    <div class="d-flex align-items-center justify-content-center ht-100v" >
+
+      <div class="login-wrapper wd-300 wd-xs-350 pd-25 pd-xs-40 rounded shadow-base" style="background-color:white">
+        <div class="signin-logo tx-center tx-28 tx-bold tx-inverse">
+        <span class="tx-normal">
+        <img src="/images/logo300ede.png"/>
+        </span>
+        </div>
+        <div class="tx-center tx-28">TF Kable</div>
+        <hr/>
+<form name="f" th:action="@{/login}" method="post" class="form-signin">
+        <div class="form-group">
+        	Login
+			<input type="text" id="login" name="usernameparam" class="form-control input-box" placeholder="" required="true" /> 
+        </div><!-- form-group -->
+        <div class="form-group">
+        Hasło
+			<input type="password" id="password" name="password" class="form-control" placeholder="" required="true" autocomplete="off" />
+        </div><!-- form-group -->
+        <br/>
+        <button type="submit" class="btn btn-success btn-block">Zaloguj</button>
+			
+			
+	
+			
+
+
+
+
+        </form>
+      </div><!-- login-wrapper -->
+    </div><!-- d-flex -->
+
+    <script src="../lib/jquery/jquery.js"></script>
+    <script src="../lib/popper.js/popper.js"></script>
+    <script src="../lib/bootstrap/bootstrap.js"></script>
+
+  </body>
+</html>

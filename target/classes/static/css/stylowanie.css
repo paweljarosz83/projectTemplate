@@ -1,0 +1,500 @@
+@CHARSET "UTF-8";
+
+.br-pageheader{
+	margin-bottom: 0px;
+}
+
+.br-pagebody{
+	margin-top: 0px;
+	background-color:#f3f5f7;
+}
+
+.br-mainpanel{
+	background-color:#f3f5f7;
+}
+
+body{
+	background-color:#f3f5f7;
+}
+
+.myUserNameHeader{
+	color:white;
+}
+
+
+
+
+#tableKlienci th{
+	background-color:rgb(255, 255, 255);
+	padding-left:4px;
+	border-right: none;
+	border-left: none;
+	font-size:14px;
+	font-weight: normal;
+}
+
+#tableKlienci{
+    border: 1px solid rgb(192, 192, 192); /* Lewa boczna ramka */
+    font-size:16px;
+	color:black;
+}
+
+#tableKlienci tr td{
+	border-right: none;
+	border-left: none;
+}
+
+
+#ankietyTable th{
+	background-color:rgb(255, 255, 255);
+	padding-left:4px;
+	border-right: none;
+	border-left: none;
+	font-size:14px;
+	font-weight: normal;
+}
+#ankietyTable{
+    border: 1px solid rgb(192, 192, 192); /* Lewa boczna ramka */
+    font-size:16px;
+	color:black;
+}
+#ankietyTable tr td{
+	border-right: none;
+	border-left: none;
+	/*vertical-align: top;*/
+}
+
+
+#pytaniaAllTable{
+    border: 1px solid rgb(192, 192, 192); /* Lewa boczna ramka */
+    font-size:16px;
+	color:black;
+}
+#pytaniaAllTable th{
+	background-color:rgb(255, 255, 255);
+	padding-left:4px;
+	border-right: none;
+	border-left: none;
+	font-size:14px;
+	font-weight: normal;
+}
+#pytaniaAllTable tr td{
+	border-right: none;
+	border-left: none;
+	/*vertical-align: top;*/
+}
+
+
+
+
+#tableAnkietyKlienta{
+    border: 1px solid rgb(192, 192, 192); /* Lewa boczna ramka */
+    font-size:16px;
+	color:black;
+}
+#tableAnkietyKlienta th{
+	background-color:rgb(255, 255, 255);
+	padding-left:4px;
+	border-right: none;
+	border-left: none;
+	font-size:14px;
+	font-weight: normal;
+}
+#tableAnkietyKlienta tr td{
+	border-right: none;
+	border-left: none;
+	
+}
+
+
+
+
+
+
+
+
+
+#tablePytaniaDoAnkiety tr td{
+	vertical-align: top;
+}
+
+.dottedBorder{
+	border-style: dotted;
+}
+
+.noBorder{
+	border:none;
+}
+
+.activeBCG{
+	background-color:#ebf7f0;
+	color:#40b46c;
+	font-weight: bold;
+}
+
+.btn{
+	background-color:rgb(238, 239, 240);
+}
+
+.buttonMenuItem{
+	border: none;
+}
+
+.centerMenuIcon {display: flex;justify-content: center;align-items: center;}
+
+.menuIconZielony{
+	color:#40b46c;
+}
+.zielonyJBText{
+	color:#40b46c;
+}
+.zielonyPrzycisk{
+	background-color:#40b46c;
+	color:white;
+	border:none;
+}
+
+.zielonyPrzyciskLINK{
+	background-color: #40b46c;
+	color:white;
+	border:none;
+	height: 34px;
+
+}
+
+.zielonyPrzycisk:hover {
+  background-color: rgb(3, 148, 94);
+  color: white;
+}
+
+.btn-sm{
+	border:none;
+}
+
+.infoANK{
+	font-size: 23px;
+	color:black;
+}
+
+.marginZapiszANK{
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#usunPlikButton{
+	vertical-align: right;
+	float:right;
+}
+
+
+
+.filters th{
+	background-color:white;
+	opacity: 0.8;
+}
+
+.redRamka{
+	border-color:red;
+}
+#zapiszAnkieteMessage{
+	margin-left:10px;
+}
+
+.dataTables_filter input[type="search"] {
+  width: 500%; /* Ustaw odpowiednią szerokość paska wyszukiwania */
+}
+
+
+#odpowiedziTable td{
+    width:auto;
+    text-wrap: wrap;
+}
+
+.przyciskiTabeli{
+	width:40px;	
+	font-size: 11px;
+}
+
+.przyciskiTabeliAkceptuj{
+	width:55px;	
+	font-size: 11px;
+}
+
+.przyciskiTabeliOdrzuc{
+	width:45px;	
+	font-size: 11px;
+}
+
+.editing-border {
+    border: 2px dotted #0866c6;
+}
+
+
+
+#odpowiedziTable textarea {
+    width: 100%;
+    resize: none; /* Wyłączenie możliwości zmiany rozmiaru przez użytkownika */
+    box-sizing: border-box; /* Uwzględnienie padding i border w wymiarach */
+    overflow: hidden; /* Ukrycie paska przewijania */
+   
+}
+
+
+#odpowiedzModalBody{
+	
+	width:300px !important;
+}
+.edytujOdpowiedzButton{
+	margin-right:0px;
+}
+
+#odpowiedziTable{
+    margin: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    border: none;
+    box-sizing: content-box;
+}
+
+.redFont{
+	color:red;
+}
+.greenFont{
+	color:rgb(0, 213, 53);
+}
+.redRamkaBCG{
+	background-color:rgb(255, 204, 204);
+}
+#odpowiedzField{
+	border-color:#0866c6;
+	border-width: 2px;
+	border-style: dotted;
+	margin-bottom: 4px;
+}
+#pytanieField{
+	border-color:#0866c6;
+	border-width: 2px;
+	border-style: dotted;
+}
+
+.statusAkceptacji{
+	font-size: 12px;
+}
+
+#tabelaWpytaniu th {
+     padding-left:12px;
+     padding-right:0px;
+     padding-top:2px;
+     padding-bottom:2px;
+}
+
+#tabelaWpytaniu td {
+     padding-left:0px;
+     padding-right:0px;
+     padding-top:0px;
+     padding-bottom:0px;
+}
+
+
+.tdTabelaWpytaniu{
+	padding: 0;
+}
+
+.no-border {
+    border: none;
+    padding-top:12px;
+}
+
+#trescPytaniaPole{
+	color:rgb(54, 54, 54);
+	margin-bottom: 4px;
+		border-width: 2px;
+	border-style: dotted;
+
+}
+
+#anulujEdytowanePytanieButton{
+	margin-right:4px;
+}
+
+
+#edytujOdpowiedzTextArea{
+	width:200px;
+}
+
+.card{
+	padding-left:0px;
+	margin-left:0px;
+}
+.greenText{
+	color:rgb(115, 230, 0);
+	font-weight: bold;
+}
+
+.redText{
+	color:red;
+	font-weight: bold;
+}
+
+#tablePytaniaDoAnkiety{
+	font-size: 12px;
+}
+
+.komunikatZwrotnySukces{
+	color:#80ff00;
+}
+
+.szukajButton{
+	line-height: 16px;
+}
+.wyczyscButton{
+	line-height: 16px;
+}
+.coSzukacField{
+	height: 50px;
+}
+
+.napisTop{
+	color:#ffffff;
+	font-size:24px;
+	font-weigth:bold;
+}
+
+.whiteKolorek{
+	 background-color: white;
+	 -webkit-box-shadow: 0 10px 6px -6px #c0c0c0;
+     -moz-box-shadow: 0 10px 6px -6px #c0c0c0;
+     box-shadow: 0 10px 6px -6px #c0c0c0;
+	 
+}
+
+
+.smallText{
+	font-size:10px;
+}
+.dataTables_filter {
+   float: left !important;
+}
+
+#certyfikatyTable th input{
+	width:100%;
+	max-width:100%;
+	border-color:#e8e8e8;
+	
+}
+
+.liliput{
+	font-size:8px;
+}
+
+.bcgLight{
+	background-color:#e8e8e8;
+	margin-bottom:50px;
+}
+
+#certyfikatyTable th{
+	padding-left:2px;
+	padding-right:10px;
+	
+}
+
+.titlesy{
+	font-size:15px;
+	color:black;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wersyja{
+	font-size:8px;
+	color:black;
+}
+
+#zalacznikiTable td{
+	padding: 2px 0px 2px 0px;
+	font-size:12px;
+}
+
+.zalacznikOpis{
+}
+
+
+
+#szukajField{
+	
+	width:100%;
+	max-width:100%;
+	display: flex;
+}
+
+.br-header{
+	heigth:10px;
+	max-heigth:10px;
+}
+
+.errorInfo{
+	color:red;
+}

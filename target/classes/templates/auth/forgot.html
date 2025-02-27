@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+	
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script src="/js/jquery-3.3.1.min.js"></script>
+
+<title>Login</title>
+
+<link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo' type='text/css' />
+<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Lato:400,700" />
+<link rel='stylesheet' th:href="@{/css/login.css}" />
+
+
+</head>
+
+<body id="loginBody">
+	
+	<form action="#" th:action="@{/forgot}" th:object="${emailDTO4Reset}" th:method="post" class="form-signin">
+
+			<div class="form-signin-heading">Przywracanie hasła</div>
+
+<br/>
+<br/>
+Podaj adres email na który ma zastać wysłany link do utworzenia nowego hasła.
+
+			<div class="message" th:utext="${message}"></div>
+
+			<div th:if="${param.error}" class="alert alert-danger">
+			 	<span th:text="#{prop.login.error}" class="alertText"></span>
+			</div>
+
+			<input id="email" type="text" class="form-control input-box" th:field="*{email}"  placeholder="email" /> 
+			<span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="errorText"></span>
+		
+			<button class="btn btn-default btn-block buttonOne" type="submit" id="wyslijButton">Wyślij</button>
+			<br/>
+			<div class="authLabel"><a href="/login">Powrót do strony logowania</a></div>
+				
+		</form>
+</body>
+
+<script>
+
+$("#wyslijButton").click(function(){
+	
+	$("#wyslijButton").attr("disbled",true);
+});
+
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

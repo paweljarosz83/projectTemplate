@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta property="og:image" content="http://themepixels.me/bracket/img/bracket-social.png">
+	<meta property="og:image:secure_url" content="http://themepixels.me/bracket/img/bracket-social.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="600">
+
+	<!-- Meta -->
+	<meta id="_csrf" name="_csrf" th:content="${_csrf.token}" />
+	<meta id="_csrf_header" name="_csrf_header" th:content="${_csrf.headerName}" />
+
+	<title>TF Kable</title>
+
+	<!-- vendor css -->
+	<link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+	<link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+	<link href="../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+	<link rel="shortcut icon" href="/images/favicon2.ico" type="image/x-icon">
+	<script src="../lib/jquery/jquery.js"></script>
+	<!-- Bracket CSS -->
+	<link rel="stylesheet" href="../css/bracket.css">
+	<link rel="stylesheet" href="../css/stylowanie.css">
+
+	<link rel="stylesheet" type="text/css" href="../DataTables/datatables.min.css" />
+	<script type="text/javascript" src="../DataTables/datatables.js"></script>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
+</head>
+
+<body>
+
+
+	<!-- ########## START: LEFT PANEL ########## -->
+	<div class="br-logo">
+		<img src="/images/16.png" />
+
+	</div>
+
+	<div class="br-sideleft overflow-y-auto">
+		<label class="sidebar-label pd-x-15">Menu</label>
+		<div class="br-sideleft-menu">
+
+			<hr />
+
+			<a href="/" class="br-menu-link activeBCG">
+				<div class="br-menu-item">
+					<span class="menu-item-label">Menu 1</span>
+				</div>
+			</a>
+
+			<a href="/" class="br-menu-link">
+				<div class="br-menu-item">
+					<span class="menu-item-label">Menu 2</span>
+				</div>
+			</a>
+
+			<a href="/" class="br-menu-link">
+				<div class="br-menu-item">
+					<span class="menu-item-label">Menu 3</span>
+				</div>
+			</a>
+
+		</div>
+		<br>
+	</div>
+
+
+	<div class="br-header">
+		<div class="br-header-left">
+			<div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href=""><i
+						class="icon ion-navicon-round"></i></a></div>
+			<div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href=""><i
+						class="icon ion-navicon-round"></i></a></div>
+
+		</div><!-- br-header-left -->
+
+
+		<div class="br-header-center napisTop">
+			Nazwa aplikacji
+		</div>
+
+
+		<div class="br-header-right">
+			<nav class="nav">
+
+				<div class="dropdown">
+
+					<form sec:authorize="isAuthenticated()" id="frmlogout" th:action="@{/logout}" method="post"
+						class="form-inline nav-link nav-link-profile">
+						<i class="fa fa-user-circle-o" aria-hidden="true" style="color:white"></i>
+						<span sec:authentication="name" style="margin: 0 8px 0 4px"
+							class='userNameInHeader myUserNameHeader'></span>
+						<a href="javascript:{}"
+							onclick="document.getElementById('frmlogout').submit(); return false;">wyloguj</a>
+					</form>
+					<span sec:authorize="!isAuthenticated()"><a href="/login">Zaloguj</a></span>
+
+				</div><!-- dropdown -->
+			</nav>
+		</div><!-- br-header-right -->
+	</div>
+
+
+
+
+	</div>
+	<div class="br-mainpanel">
+
+		<div class="br-pageheader pd-y-15 pd-l-20 whiteKolorek shadow-sm p-3 mb-5 bg-white rounded">
+			<nav class="breadcrumb pd-0 mg-0 tx-12">
+			</nav>
+		</div>
+
+		<div class="br-pagebody">
+
+
+			<div class="row">
+				<div class="col-md-12">
+
+
+
+
+				</div>
+			</div>
+
+		</div><!-- br-pagebody -->
+
+
+		<footer class="br-footer">
+			Materiały zamieszczone na portalu mogą być wysyłane na zewnątrz tylko i wyłącznie
+			za zgodą DYREKTORA lub WŁAŚCICIELA, po wcześniejszym zapoznaniu się z treścią.
+
+			<br />
+			<br />
+			<div class="footer-left">
+				<div class="mg-b-2">Copyright &copy; 2025 TELE-FONIKA Kable S.A</div>
+				<div></div>
+			</div>
+
+		</footer>
+	</div>
+
+
+	<script src="../lib/popper.js/popper.js"></script>
+	<script src="../lib/bootstrap/bootstrap.js"></script>
+	<script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+	<script src="../lib/moment/moment.js"></script>
+	<script src="../lib/jquery-ui/jquery-ui.js"></script>
+	<script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
+	<script src="../lib/peity/jquery.peity.js"></script>
+	<script src="../js/bracket.js"></script>
+
+</body>
+
+</html>

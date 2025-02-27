@@ -1,0 +1,1417 @@
+@CHARSET "UTF-8";
+
+.cfwn {
+	background-image: linear-gradient(to bottom, #F7F9F8, #F7F9F8);
+}
+
+.widerr {
+	width: 400px;
+}
+
+#plikiContainer {
+	min-height: 500px;
+}
+
+
+#zadanieKlientaTextarea{
+	font-size:12px;
+	background-color:white;
+	
+}
+#opisReklamacjiTextarea{
+	font-size:12px;
+	background-color:white;
+}
+
+.userButtons{
+	margin-right:10px;
+}
+
+
+#checkPlikiModal{
+	width:40px;
+	max-width:40px;
+}
+
+
+
+
+
+
+
+.zapiszButton {
+	margin-left: 8px;
+}
+
+.waskaKolumna{
+	width:15px;
+	max-width:15px;
+}
+
+.szerokaKolumna{
+	width:115px;
+	max-width:115px;
+}
+
+.szerokaKolumna150{
+	width:180px;
+	max-width:180px;
+}
+
+.centerText {
+  	display: flex; 
+    justify-content: center
+}
+#szukajBrak{
+	margin-left:5px;
+}
+
+
+.reklamowaneWyrobTR {
+	background-color: #f4f7f5;
+}
+
+.zadanieKorekty{
+	background-color: #f4f7f5;
+}
+
+#wartosciWPLNSumaField{
+	font-size:14px;
+	font-weight:bold;
+}
+
+#wartosciWWalSumaField{
+	font-size:14px;
+	font-weight:bold;
+}
+
+#dataZakonczeniaPostepowaniaField{
+	min-width:50px;
+}
+
+#usunWniosekButton{
+	margin:0px 8px 8px 8px;
+}
+
+#reklamowaneReadOnlyKoszty td input {
+	height: 20px;
+	max-height: 20px;
+}
+
+#reklamowaneReadOnlyKoszty td {
+	padding: 0px 0px 0px 0px;
+	height: 20px;
+	max-height: 20px;
+}
+
+#nazwaFirmyField{
+	font-size: 14px;
+}
+
+#messageBOX{
+	height: 25px;
+	margin-right:5px;
+}
+
+
+.infoPasek {
+	height: 20px;
+	background-color: #f4f7f5;
+	height: 20px;
+	margin: 10px 6px 0px 6px;
+}
+
+#wyjasnieniePrzyczynPowstReklField {
+	background-color: white;
+	border-radius: 0px;
+}
+
+#przyczynyPowstaniaNiezgodnosciField {
+	background-color: white;
+	border-radius: 0px;
+}
+
+#podjeteDzialaniaWprzedmiocieReklField {
+	background-color: white;
+	border-radius: 0px;
+	font-size: 12px;
+}
+
+#podjeteDzialaniaKorygZapoField {
+	background-color: white;
+	border-radius: 0px;
+	font-size: 12px;
+}
+
+#ocenaSkutecznosciField {
+	background-color: white;
+	border-radius: 0px;
+	font-size: 12px;
+}
+
+#dodatkoweKosztyTable th {
+	padding: 0px 0px 0px 0px;
+}
+
+#dodatkoweKosztyTable td {
+	padding: 2px 2px 2px 2px;
+}
+
+#dodatkoweKosztyTable input {
+	font-size: 11px;
+}
+
+#dodatkoweKosztyTable {
+	width: 100%;
+	table-layout: fixed;
+}
+
+#zlomyTable {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.pietnascie {
+	width: 10%;
+}
+
+.twenty {
+	width: 20%;
+}
+
+.piec {
+	width: 5%;
+}
+
+#sumaTable {
+	border-style: none;
+	border: none;
+}
+
+#dodatkoweKosztyError {
+	color: red;
+	font-size: 14px;
+}
+
+.darker {
+	background-color: #f4f7f5;
+}
+
+.mniejszyBtn {
+	font-size: 10px;
+}
+
+.labelKoszt {
+	font-size: 14px;
+}
+
+#zlomError {
+	font-size: 14px;
+	color: red;
+}
+
+.topSek {
+	margin: 0px 0px 10px 0px;
+}
+
+#szukajKorektyError {
+	color: red;
+}
+
+
+
+
+#proponowanySposobZalatwieniaField {
+	background-color: white;
+	border-radius: 0px;
+}
+
+#opiniaBHField {
+	background-color: white;
+	border-radius: 0px;
+}
+
+#opiniaZRField {
+	background-color: white;
+	border-radius: 0px;
+	font-size: 12px;
+}
+
+.redletters {
+	color: red;
+}
+
+.poprawInput {
+	border-color: red;
+}
+
+.disabledRaport {
+	
+}
+
+.datepicker {
+	font-size: 12px;
+	background-color: white;
+	border-radius: 0px;
+}
+
+#wyjasnieniePrzyczynPowstReklField {
+	font-size: 12px;
+}
+
+#proponowanySposobZalatwieniaField {
+	font-size: 12px;
+}
+
+#decyzjaZarzaduField {
+	font-size: 12px;
+	background-color: white;
+	border-radius: 0px;
+}
+
+#opiniaBHField {
+	font-size: 12px;
+}
+
+#kierunekError {
+	color: red;
+}
+
+#collapseExample {
+	font-size: 10px;
+}
+
+#osobaOdpowiedzialnaZaPowstanieWadyField {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+.pozhead {
+	background-color: #292b2c;
+	color: white;
+}
+
+#pozycje td {
+	font-size: 10px;
+}
+
+#reklamowane td {
+	font-size: 10px;
+}
+
+.partiatr {
+	background-color: white;
+	font-size: 10px;
+	color: gray;
+	max-height: 10px;
+}
+
+.partiatr tr, td {
+	max-height: 10px;
+}
+
+#wnioskiTable tr {
+	background-color: white;
+	min-width: 1px;
+}
+
+#wnioskiTable tbody {
+	border-bottom: 1px solid #ccc;
+}
+
+#wnioskiTable td {
+	border-color: #eeeeee;
+}
+
+
+
+#zlomyTable th {
+	padding: 0px 0px 0px 0px;
+}
+
+#zlomyTable td {
+	padding: 2px 2px 2px 2px;
+}
+
+#sumaTable th {
+	padding: 0px 0px 0px 0px;
+}
+
+#zapiszIloscUznanaButton {
+	padding: 0px 8px 0px 8px;
+}
+
+#raportyTable td {
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+}
+
+#odliczanieZlomu th {
+	font-size: 11px;
+	padding: 0px 0px 0px 0px;
+}
+
+#odliczanieZlomu input {
+	font-size: 11px;
+	min-height: 30px;
+	max-height: 30px;
+}
+
+#odliczanieZlomu tr td {
+	padding: 2px 2px 2px 2px;
+}
+
+#reklamowaneReadOnly td {
+	padding: 0px 0px 0px 0px;
+}
+
+#ttop td {
+	padding: 0px 0px 0px 0px;
+	background-color: #f4f7f5;
+	height: 20px;
+}
+
+#ttop tr th {
+	padding: 2px 2px 2px 2px;
+	font-weight: normal;
+	height: 20px;
+}
+
+#wniosekZadanieOpis {
+	font-size: 14px;;
+}
+
+#wniosekInfoTable td {
+	padding: 2px 2px 2px 2px;
+	font-size: 11px;
+	background-image: linear-gradient(to right, white, white);
+}
+
+.datapckrnostyle {
+	height: 20px;
+	max-height: 20px;
+	background-color: white !important;
+	border-radius: 0px !important;
+}
+
+#postepowaniaTable td {
+	padding: 2px 2px 2px 2px;
+	font-size: 11px;
+}
+
+#postepowanieForm {
+	font-size: 11px;
+}
+
+#postepowanieForm select {
+	width: 100%;
+}
+
+#postSelektoryIiN {
+	padding: 0px 8px 0px 0px;
+}
+
+#postSelektoryDPZ {
+	padding: 0px 8px 0px 0px;
+}
+
+#postSelektoryWOZ {
+	padding: 0px 8px 0px 0px;
+}
+
+#postSelektory {
+	padding: 0px 8px 0px 0px;
+}
+
+#postSelektoryDecyzja {
+	padding: 0px 0px 0px 0px;
+}
+
+#raportSelektory {
+	padding: 0px 8px 0px 0px;
+	font-size: 11px;
+}
+
+#raportSelektoryOPR {
+	padding: 0px 8px 0px 0px;
+	font-size: 11px;
+}
+
+
+
+#raportSelektoryWDR{
+	padding: 0px 8px 0px 0px;
+	font-size: 11px;
+}
+
+#raportSelektoryOce {
+	padding: 0px 8px 0px 0px;
+	font-size: 11px;
+}
+
+#raportSelektory input, select {
+	padding: 0px 8px 0px 0px;
+	font-size: 11px;
+	width: 100%;
+}
+
+#postepow {
+	font-size: 11px;
+}
+
+#plikiTableContainer tr {
+	font-weight: bold;
+}
+
+#uprawnieniaSekcja {
+	max-width: 200px;
+}
+
+#szukamInfo {
+	float: center;
+	text-align: center;
+}
+
+.topMenu {
+	display: inline-block;
+}
+
+#dodatkoweKoszty tr {
+	max-height: 12px;
+}
+
+.edytujbtn {
+	margin: 5px 6px 5px 6px;
+}
+
+#podsumowanie td {
+	height: 20px !important;
+	max-height: 20px !important;
+	padding: 0px 0px 0px 0px;
+}
+
+.innySuma {
+	color: #3b3b3b;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+.disabledTab {
+	color: #cacaca;
+}
+
+#zabki {
+	text-align: center;
+}
+
+.kwadL {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cdcdcd;
+	margin-right: 1px;
+	padding: 8px 8px 8px 8px;
+	min-height: 170px;
+}
+
+.kwadR {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cdcdcd;
+	margin-left: 1px;
+	padding: 8px 8px 8px 8px;
+	min-height: 170px;
+}
+
+.kwadx {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cdcdcd;
+	padding: 28px 18px 18px 58px;
+}
+
+#sumaSum {
+	float: center;
+	text-align: center;
+}
+
+#ttop th {
+	max-width: 20px;
+	width: 20px;
+}
+
+#kosztyRamka {
+	border-color: #eeeeee;
+	border-width: 1px;
+	border-style: solid;
+	padding: 6px 6px 6px 6px;
+}
+
+#korektyKoszty {
+	padding: 10px 10px 10px 10px;
+	border-color: #eeeeee;
+	border-width: 1px;
+	border-style: solid;
+	border-left-color: white;
+}
+
+
+
+
+#reklamacjeTable th, td {
+	text-align: center;
+}
+
+#reklamacjeTable thead {
+	background-color: #f4f7f5;
+	color: #405959;
+	border-bottom-color: white;
+}
+
+#reklamacjeTable {
+	border-bottom-color: white;
+	border-top-color: white;
+}
+
+#reklamacjeTable td {
+	font-size: 11px;
+}
+
+#reklamacjeTable tr {
+	overflow: hidden;
+	
+	min-width: 1px;
+}
+
+ #reklamacjaTable tr:hover { background: yellow; }
+
+
+
+
+.odliczZlom {
+	background-color: white;
+}
+
+#pioslow {
+	font-size: 10px;
+}
+
+.pokazRaport {
+	font-size: 10px;
+	padding: 0px 4px 0px 4px;
+}
+
+.pokazPostepowanie {
+	font-size: 10px;
+	padding: 0px 4px 0px 4px;
+}
+
+.usunDK {
+	font-size: 10px;
+	padding: 0px 4px 0px 4px;
+}
+
+.usunZL {
+	font-size: 10px;
+	padding: 0px 4px 0px 4px;
+}
+
+.opcjeSelects {
+	min-height: 23px;
+}
+
+.selectedPostepowanie {
+	background-color: #f4f7f5;
+}
+
+.sumaFields {
+	font-size: 24px;
+}
+
+.inny {
+	background-color: #f4f7f5;
+}
+
+.awysoki {
+	color: red;
+}
+
+#numerFKField {
+	
+}
+
+.bsredni {
+	color: orange;
+}
+
+.cniski {
+	color: brown;
+}
+
+#odwolaniaFormCont {
+	background-image: linear-gradient(to bottom, #f3f5f5, #f3f5f5);
+	padding: 32px 32px 0px 32px;
+	border-radius: 12px;
+}
+
+.dodajPlikSekcja {
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	background-image: linear-gradient(to bottom, #f3f5f5, #f3f5f5);
+	margin: 12px 0px 0px 0px;
+	padding: 32px 12px 12px 12px;
+}
+
+.formPostReklLab {
+	font-size: 32px;
+	float: left;
+	text-align: left;
+}
+
+#danePost {
+	background-image: linear-gradient(to bottom, white, white);
+}
+
+.wtr {
+	background-color: white;
+}
+
+.greenBcg {
+	background-color: green;
+}
+
+.nomarg {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.nomargL {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 15px 0px 0px;
+}
+
+.nomargR {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 9px 0px 0px;
+}
+
+#postHeader {
+	background-image: linear-gradient(to bottom, white, white);
+	min-height: 124px;
+	text-align: left;
+	padding: 50px 0 0 0px;
+}
+
+#postepow {
+	background-image: linear-gradient(to bottom, white, white);
+	padding: 12px 8px 0px 16px;
+	border-radius: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+.uprawSekcja {
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+#mainrowrekl {
+	background-image: linear-gradient(to bottom, white, white);
+}
+
+#przyczynyPowstaniaNiezgodnosciField {
+	font-size: 11px;
+}
+
+.bladDanych {
+	border-color: red;
+}
+
+.centerd {
+	float: center;
+	text-align: center;
+}
+
+#wnPrzyj {
+	color: white;
+	size: 64px;
+	float: center;
+}
+
+.biginput {
+	font-size: 24px;
+	min-height: 48px;
+}
+
+
+
+.thnazwywyr {
+	min-width: 250px;
+}
+
+#reklamowane th, td, tr {
+	font-size: 11px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+
+#pozycje th, td {
+	font-size: 11px;
+	text-align: center;
+}
+
+#pozycje {
+	background-color: #f4f7f5;
+}
+
+#pozycje tr {
+	padding: 0px 0px 0px 0px;
+}
+
+#wniosekSelektory select, input {
+	width: 100%;
+	;
+}
+
+#numerWZField {
+	max-width: 200px;
+}
+
+#wuzetka th, td {
+	font-size: 12px;
+	text-align: center;
+	min-height: 82px;
+}
+
+#wuzetka {
+	color: gray;
+}
+
+#wnioseFormSection {
+	background-color: #f4f7f5;
+}
+
+#fakSek {
+	background-image: linear-gradient(to top, white, white);
+	padding: 0px 0px 0px 0px !important;
+}
+
+#formularzWniosku {
+	font-size: 11px;
+}
+
+#formularzWniosku input, select {
+	margin-bottom: 8px;
+}
+
+
+
+.font11 {
+	font-size: 11px;
+}
+
+.sekcjaWyszukajFakture {
+	/**
+	border-style: solid;
+	border-width:12px;
+	border-radius: 0px;
+	border-color:#1d4358;
+	*/
+	padding: 18px 18px 18px 18px;
+}
+
+.dd {
+	color: #1d4358;
+}
+
+.bordd {
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+.errorClass {
+	font-size: 14px;
+	float: right;
+	color: red;
+	font-weight: normal;
+}
+
+.redBcg {
+	background-color: red;
+}
+
+#messageField {
+	font-size: 38px;
+	color: white;
+	align-items: center;
+	text-align: center;
+	float: center;
+}
+
+#messagePasek {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	float: center;
+}
+
+.thsmall {
+	width: 10%;
+}
+
+.thsmaller {
+	width: 5%;
+}
+
+.daneILoAso {
+	font-size: 18px;
+}
+
+.daneFirmy {
+	font-size: 14px;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	text-align: right;
+	color: #868686;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 8px 16px 16px 16px;
+}
+
+.zlg {
+	font-size: 16px;
+	font-weigth: bold;
+	margin: 0px 0px 44px 0px;
+}
+
+.whiteText {
+	color: #d0d0d0;
+	font-weigth: bold;
+}
+
+.inputFieldError {
+	text-align: right;
+	color: red;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.redFont {
+	color: red;
+}
+
+.redGreen {
+	color: green;
+}
+
+.redBlack {
+	color: black;
+}
+
+.reklamacjeDash {
+	background-color: white;
+	min-height: 200px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin: 16px 0px 16px 0px;
+	padding: 8px 16px 8px 8px;
+}
+
+.reklamacjeDash td {
+	text-align: center;
+}
+
+td .tdnarrow {
+	width: 20px
+}
+
+.piecproc {
+	width: 50%;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+	text-align: right;
+}
+
+
+td.highlight {
+    background-color: whitesmoke !important;
+}
+
+.sub {
+	font-size: 12px;
+}
+
+.nad {
+	font-size: 24px;
+}
+
+.lab {
+	font-color: #eeeeee;
+}
+
+input[type="text"]:disabled {
+	background: white;
+	border-color: #ebebeb;
+	border-style: solid;
+}
+
+input[type="number"]:disabled {
+	background: white;
+	border-color: #ebebeb;
+	border-style: solid;
+}
+
+.kosztyTable input[type="text"]:enabled {
+	background: white;
+	border-color: #0080ff;
+	border-style: solid;
+	border-width: 1px;
+	height: 34px;
+	border-radius: 4px;
+}
+
+.kosztyTable input[type="number"]:enabled {
+	background: white;
+	border-color: #0080ff;
+	border-style: solid;
+	border-width: 1px;
+	height: 34px;
+	border-radius: 4px;
+}
+
+.kosztyTable td {
+	padding: 16px 16px 16px 16px;
+}
+
+.daneFirmyNazwa {
+	font-size: 18px;
+	float: right;
+}
+
+.daneFirmySap {
+	font-size: 18px;
+	float: right;
+}
+
+.footr {
+	float: center;
+	text-align: center;
+	color: #eeeeee;
+	size: 12px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.grout {
+	background-image: linear-gradient(to right, white, #f8f8f8);
+}
+
+.simpleTable {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%
+}
+
+.kosztyTable {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.kalendariumTable {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.kalendariumTable td {
+	text-align: center;
+	font-size: 12px;
+}
+
+.kalText {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.dokumentyTable {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.dokumentyTable th {
+	text-align: center;
+	font-size: 16px;
+}
+
+.dokumentyTable td {
+	text-align: center;
+	font-size: 12px;
+}
+
+#usersTable td, th {
+	text-align: center;
+	font-size: 12px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatLeftSmaller {
+	float: left;
+	font-size: 14px;
+	margin-top: 10px;
+	background-color: white;
+	color: #868686;
+}
+
+.centered {
+	text-align: center;
+}
+
+.bigger {
+	font-size: 24px;
+}
+
+
+
+
+
+
+
+.wyszukRow {
+  height: 100%;
+  display: flex;
+  
+  /* align-self: center;    <---- REMOVE */
+  align-items: center;   /* <---- NEW    */
+
+}
+
+
+#wyszukiwanieZaawansowaneSekcja {
+	border-width: 1px;
+	font-size: 12px;
+}
+
+#rekWyrSek {
+	background-image: linear-gradient(to top, white, white);
+	text-align: center;
+	float: center;
+}
+
+#rekWyrTekst {
+	margin: 0px 0px 12px 0px;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+.midLabel {
+	margin: 18px 0 18px 0;
+}
+
+td {
+	padding: 8px 8px 8px 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 100px
+}
+
+.plikiTable td {
+	
+}
+
+tr {
+	border-bottom: 1pt solid #eaf0ef;
+}
+
+#formas {
+	float: center;
+}
+
+.labelsForm {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.transakcji {
+	border-style: solid;
+	border-width: 12px;
+	border-radius: 0px;
+	border-color: #f0f0f0;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.floatRight {
+	float: right;
+}
+
+.labelFont {
+	font-size: 18px;
+}
+
+.labelFontNrFaktury {
+	font-size: 28px;
+	margin-bottom: 6px;
+}
+
+.sekcjeRow {
+	display: run-in;
+}
+
+.pasek {
+	min-height: 24px;
+	float: center;
+	text-align: center;
+	font-size: 32px;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	z-index: 4
+}
+
+.footer {
+	min-height: 124px;
+	text-align: center;
+}
+
+.card-body {
+	border-style: none;
+	padding: 8px 0px 0px 0px;;
+}
+
+.greenOK {
+	background-color: green;
+}
+
+.fakturaDaneFaktury {
+	float: left;
+}
+
+#faktura {
+	text-align: center;
+	float: center;
+	font-size: 20px;
+}
+
+.sekcjaZapiszWniosek {
+	text-align: right;
+	float: right;
+}
+
+
+
+
+
+#wnioskiTable {
+	border-bottom-color: black;
+	border-top-color: white;
+	padding: 0px 0px 0px 0px;
+}
+
+#wnioskiTable tr {
+	padding: 0px 0px 0px 0px;
+	font-size: 5px;
+}
+
+#wnioskiTable td {
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+	background-color: white;
+}
+
+#wnioskiTable th {
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+}
+
+.nrpartiith {
+	
+}
+
+.dodatkowyKosztRow input {
+	min-height: 30px;
+	max-height: 30px;
+}
+
+.zlomRow input {
+	min-height: 30px;
+	max-height: 30px;
+}
+
+.zlomRow tr {
+	min-height: 30px;
+	max-height: 30px;
+}
+
+#wnioskiTable thead {
+	background-color: #f4f7f5;
+	color: #405959;
+	border-bottom-color: white;
+}
+
+#userForm input {
+	min-height: 30px;
+	max-height: 30px;
+	font-size: 12px;
+}
+
+#userForm {
+	margin: 60px 0px 0px 0px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 40px 20px 20px 20px;
+}
+
+.floatCenterxxx {
+	background-color: #f4f7f5;
+	text-align: center;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+}
+
+#plikiWeWniosku {
+	background-color: #f4f7f5;
+}
+
+#submitKartaFormButton {
+	float: right;
+}
+
+#submitKartaFormButtonEdit {
+	float: right;
+}
+
+#infoDostawcy {
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.redLabelLeft {
+	color: red;
+	float: left;
+}
+
+.smallText {
+	font-size: 12px;
+}
+
+.authButtonsNav {
+	display: inline-block;
+}
+
+.grayFont {
+	color: gray;
+	font-size: 14px;
+}
+
+.whiteLabel {
+	color: white;
+	font-size: 67px;
+}
+
+.rajt {
+	text-align: right;
+	margin: 10px 0 10px 0;
+	padding: 10px 0 0 0;
+}
+
+.redLabel {
+	color: red;
+	float: right;
+}
+
+body {
+	min-height: 100%;
+}
+
+.floatRight {
+	float: right;
+}
+
+#zakladSelectField {
+	width: 197px;
+}
+
+.pomocLabel {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pomocContent {
+	font-size: 12px;
+}
+
+.intersekcja {
+	margin: 10px 0 10px 0;
+	padding: 10px 0 0 0;
+	color: black;
+	font-size: 24px;
+}
+
+.intersekcjaWHITE {
+	background-color: red;
+	margin: 60px 0px 10px 0px;
+	padding: 10px 0 0 0;
+	color: black;
+	font-size: 24px;
+	text-align: center;
+}
+
+.floatLeftSection {
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0 10px 0;
+	color: black;
+	font-size: 24px;
+	text-align: left;
+	background-image: linear-gradient(to right, #f8f8f8, white);
+}
+
+.gradient1 {
+	background-image: linear-gradient(to top, #f8f8f8, #f2f2f2);
+	bakcground-color: #f2f2f2;
+}
+
+.floatLeftR {
+	float: left;
+}
+
+tr {
+	padding: 10px 10px 10px 10px;
+}
+
+
+#zadanieKlientaField {
+	font-size: 12px !important;
+}
+
+#opisReklamacjiField {
+	font-size: 12px !important;
+}
+
